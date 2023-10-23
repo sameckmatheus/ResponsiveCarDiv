@@ -4,7 +4,7 @@ html {
   --black: #1a1c20;
   --white: #fff;
   --green: #00c380;
-  --d-green: #019b66;
+  --d-blue: #004bd681;
   --gray: #c1c1c1;
   --l-gray: #c4c4c4;
   --m-gray: #373838;
@@ -16,8 +16,9 @@ html {
   --light: #fbfbfb;
   --n-road: -4em;
   --p-road: 7em;
+  --luminuos-blue: #00a2ff;
 
-  background-color: var(--green);
+  background-color: var(--luminuos-blue);
 }
 
 html *,
@@ -62,7 +63,7 @@ body {
     radial-gradient(2.95em 2.5em at 48% 1.2%, var(--black) 37%, transparent 38%),
     linear-gradient(var(--black) 100%, transparent 0),
     /* rubber-r=== */ /* ===shadow */
-      linear-gradient(var(--d-green) 100%, transparent 0);
+      linear-gradient(var(--d-blue) 100%, transparent 0);
 
   /* shadow=== */
 
@@ -125,7 +126,7 @@ body::after {
       transparent 20%,
       var(--white) 20.5%,
       var(--white) 20.8%,
-      var(--green) 21.5%
+      var(--luminuos-blue) 21.5%
     ),
     /* ceiling=== */ /* ===antenna */
       radial-gradient(circle at center 100%, var(--black) 30%, transparent 0),
